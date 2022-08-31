@@ -1,0 +1,100 @@
+* {
+    overflow: hidden;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.form{
+    padding: 0;
+}
+.logo img {
+    background-color: black;
+    position: relative;
+    width: 80%;
+    height: 60%;
+    margin-top: 30%;
+}
+.logo{
+    display: inline-flexbox;
+}
+
+.container {
+    background: black;
+    display: relative;
+    height: 100%;
+    padding-top: 15%;
+    width: 30%;
+}
+h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid red;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.input {
+    margin-bottom: 20px;
+}
+
+span {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+    background: transparent;
+    border-radius: 30px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 1px solid white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    background: white;
+    border-radius: 30px;
+}
+
+button:hover {
+    background: red;
+    color: white;
+}
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    .logo{
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .logo img{
+        padding: 0;
+        margin: 0;
+        top: 41.440;
+        left: 95.645;
+    }
+}
